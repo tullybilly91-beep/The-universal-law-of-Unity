@@ -1,0 +1,14 @@
+```css
+    /* A simple, clean, and modern stylesheet */
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+    .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    header { text-align: center; border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    header h1 { color: #2c3e50; }
+    textarea, input { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; box-sizing: border-box; }
+    textarea { min-height: 100px; resize: vertical; }
+    button { display: block; width: 100%; padding: 15px; background-color: #3498db; color: white; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; transition: background-color 0.3s; }
+    button:hover { background-color: #2980b9; }
+    #results-container { margin-top: 30px; background-color: #ecf0f1; padding: 20px; border-radius: 5px; border: 1px solid #ddd; }
+    #results-output { white-space: pre-wrap; word-wrap: break-word; font-family: "Courier New", Courier, monospace; }
+    .hidden { display: none; }
+    ```
