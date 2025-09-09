@@ -1,0 +1,34 @@
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Star Prism AI - Unified Systems Analysis</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>The Star Prism AI</h1>
+                <p>Analyze any complex system through the lens of The Law of Unity.</p>
+            </header>
+            <main>
+                <div class="form-container">
+                    <input type="text" id="system_name" placeholder="Name of Your System (e.g., 'My Company')">
+                    <textarea id="natural_layer" placeholder="Natural Layer: Physical laws, biology, finite resources..."></textarea>
+                    <textarea id="symbolic_layer" placeholder="Symbolic Layer: Mission statements, laws, culture, narratives..."></textarea>
+                    <textarea id="numeric_layer" placeholder="Numeric Layer: KPIs, financial goals, key metrics..."></textarea>
+                    <textarea id="personal_catalyst" placeholder="Personal Catalyst Layer: Individual behaviors, user experiences..."></textarea>
+                    <button id="analyze-button">Analyze System</button>
+                </div>
+                <div id="results-container" class="hidden">
+                    <h2>Analysis Report</h2>
+                    <pre id="results-output"></pre>
+                </div>
+            </main>
+        </div>
+        <script src="app.js"></script>
+    </body>
+    </html>
+    ```
